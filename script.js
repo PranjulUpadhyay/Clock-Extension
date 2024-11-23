@@ -11,6 +11,7 @@ function updateTime(){
     document.getElementById("time").textContent = `${hour}:${min}:${sec} ${amPm}`;
 }
 
+//quote function
 function showQuote(){
     const quotes = [
         "Time is keep GOING...So YOU also",

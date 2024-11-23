@@ -3,8 +3,6 @@
 body {
     margin: 0;
     background: #282c34;
-    color: white;
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +13,17 @@ body {
     text-align: center;
 }
 
-.time{
+#time{
+    color: #14dac9;
+    font-family: Brush Script MT;
     font-size: 4rem;
     margin-bottom: 1rem;
+    font-weight: 300;
 }
-.quote{
-    font-size: 1.5rem;
+
+#quote{
+    color: rgb(179, 179, 179);
+    font-family: fantasy;
+    font-size: 5rem;
     font-style: italic;
 }

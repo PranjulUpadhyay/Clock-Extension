@@ -3,9 +3,9 @@
     "name": "Digital Watch with Quote",
     "version": "1.0",
     "description": "Replaces your new tab page with a digital watch and an inspirational quote.",
-    "author": "Your Name",
+    "author": "Pranjul Upadhyay",
     "chrome_url_overrides": {
       "newtab": "index.html"
     }
-  }
+}
   

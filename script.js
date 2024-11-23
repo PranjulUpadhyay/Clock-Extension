@@ -1,14 +1,14 @@
 function updateTime(){
     const now = new Date();
     let hour = now.getHours();
-    const min = String(now.getMinutes()).padStart(2, '0');;
-    const sec = String(now.getSeconds()).padStart(2, '0');;
+    const min = String(now.getMinutes()).padStart(2, '0');
+    const sec = String(now.getSeconds()).padStart(2, '0');
 
     //using amPm
     const amPm = hour>=12? 'PM' : 'AM'; // Determine AM/PM
     hour = hour%12 || 12; // Convert 0 (midnight) to 12, and 13-23 to 1-11
-
-    document.getElementById("time").textContent = `${hour}:${min}:${sec} ${amPm}`;
+    const hr = String(hour).padStart(2, '0');
+    document.getElementById("time").textContent = `${hr}:${min}:${sec} ${amPm}`;
 }
 
 //quote function
